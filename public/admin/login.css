@@ -1,0 +1,150 @@
+body {
+	font-family: 'Arial';
+	margin: 0;
+	padding: 0;
+	font-size:13px; 
+	color: #222; 
+	background: #3c3c3c url(images/bg-loginbody.png);
+}
+
+.hide {display: none;}
+
+img {border:0;}
+
+#logo {
+    margin: 80px auto 0;
+    padding-bottom:10px;
+    text-align: center;
+    width: 247px;
+}
+
+#login {
+    background-image: url(images/bg-login.png);
+    border-radius: 4px 4px 4px 4px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 247px;
+}
+
+#login form {
+    margin: 0;
+	padding: 0;
+}
+
+#login p {
+    margin: 10px 0;
+}
+
+.control-group {
+    margin-bottom: 10px;
+}
+
+.control-group .icon-user, .control-group .icon-lock, .control-group .icon-mail {
+    background-color: #EEEEEE;
+    border: 1px solid #CCCCCC;
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    width: 16px;
+    padding: 4px 5px;
+    border-radius: 4px 0 0 4px;
+	float:left;
+    margin-right: -1px;
+    background: url(images/bg-loginicons.png);
+	background-position: -1px 0;
+	overflow:hidden;
+}
+
+.control-group .icon-lock {background-position: -30px 0;}
+.control-group .icon-mail {background-position: -58px 0;}
+
+.control-group input {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    width: 206px;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    border-radius: 0 4px 4px 0;
+    color: #555555;
+    display: inline-block;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 0;
+    margin-bottom: 10px;
+    padding: 4px 6px;
+    vertical-align: middle;
+}
+
+.control-group input:focus {
+	border-color: rgba(82,168,236,0.8);
+	outline: 0;
+	outline: thin dotted \9;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,168,236,0.6);
+	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,168,236,0.6);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,168,236,0.6);
+	z-index: 2
+}
+
+.control-group input:-moz-placeholder {
+    color: #c1c1c1;
+}
+
+.remember-me {
+    margin-bottom: 25px;
+    margin-top: 0;
+	display:block;
+}
+.remember-me input {
+    vertical-align: middle;
+	cursor: pointer;
+}
+
+.remember-me label {
+    vertical-align: middle;
+    font-size: 13px;
+	cursor: pointer;
+}
+
+.remember-me a {color:#333;float:right;padding-top:1px;text-decoration:none;}
+.remember-me a:hover {color:#999;text-decoration:none;border-bottom:1px dashed #999;}
+
+.login-btn input {
+	width:80px;
+	margin:0 auto;
+	display: block;
+	cursor: pointer;
+	border-radius: 4px 4px 4px 4px;
+	border-style: solid;
+	border-width: 1px;
+	font-size: 13px;
+	line-height: 20px;
+	padding: 4px 12px;
+	color: #FFFFFF;
+	background-color: #F56C06;
+	background-image: linear-gradient(to bottom, #FFAC47, #F56C06);
+	background-repeat: repeat-x;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.login-btn input:hover {
+	background-color: #fa7716;
+	background-image: linear-gradient(to bottom, #fb8731, #FFAC47);
+}
+
+.forget-btn {padding-top:10px;}
+
+#login-copyright {
+    color: #999999;
+    font-size: 11px;
+    margin: 0 auto;
+    padding: 10px 10px 0;
+    text-align: center;
+    width: 250px;
+}
+
+#login-copyright a {color:#999999;text-decoration:none;}
+#login-copyright a:hover {color:#FFF;text-decoration:none;border-bottom:1px dashed #fff;}

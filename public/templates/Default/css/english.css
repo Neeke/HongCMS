@@ -1,0 +1,10 @@
+#shortcut .fr .menu {position: relative;z-index: 10;width: 108px;padding: 3px 0 0;}
+#shortcut .menu dl {width: 94px;padding: 0 6px;}
+#shortcut .w1 {width: 148px !important;}
+#shortcut .w2 {width: 134px !important;}
+*html #shortcut .fr .fore1 b {top: 10px;}
+.icon {background:url(../images/images.png) -64px -31px;margin:9px 5px 0 0;*margin:8px 5px 0 0;float:left;width:4px;height:7px;overflow:hidden;}
+
+.PageList li a.PagePrev, .PageList li a.PageNext {*padding:2px 6px 2px 6px !important;}
+.PageList li span.NoPagePrev, .PageList li span.NoPageNext {*padding:2px 6px 2px 6px !important;}
+

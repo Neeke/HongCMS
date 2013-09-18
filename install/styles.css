@@ -1,0 +1,101 @@
+body {
+	font-family: 'Arial';
+	margin: 0;
+	padding: 0;
+	font-size:12px; 
+	color: #222; 
+	background: #3c3c3c url(images/body.png);
+}
+
+img {border:0;vertical-align:middle;}
+.red{color:#FF0000;}
+
+#logo {
+    margin: 28px auto 0;
+    padding-bottom:10px;
+    text-align: center;
+    width: 428px;
+}
+
+#main {
+    background-image: url(images/bg.png);
+    border-radius: 4px 4px 4px 4px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 428px;
+}
+
+#main form {margin: 0;padding: 0;}
+
+.box{background-color:#FFFFFF;border-width:1px;border-color:#617A89;border-style:solid;padding-bottom:5px;}
+
+.maintable{padding: 8px 0;}
+.maintable td {vertical-align:middle;height:38px;}
+
+.maindiv input {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    width: 160px;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    border-radius: 4px 4px 4px 4px;
+    color: #555555;
+    display: inline-block;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 0;
+    padding: 4px 6px;
+    vertical-align: middle;
+}
+.maindiv input.check {width:12px;padding-left:12px;}
+
+.maindiv input:focus {
+	border-color: rgba(82,168,236,0.8);
+	outline: 0;
+	outline: thin dotted \9;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,168,236,0.6);
+	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,168,236,0.6);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,168,236,0.6);
+	z-index: 2
+}
+
+.install-btn {padding-top:8px;}
+
+.install-btn input {
+	width:100px;
+	margin:0 auto;
+	display: block;
+	cursor: pointer;
+	border-radius: 4px 4px 4px 4px;
+	border-style: solid;
+	border-width: 1px;
+	font-size: 13px;
+	line-height: 20px;
+	padding: 4px 12px;
+	color: #FFFFFF;
+	background-color: #F56C06;
+	background-image: linear-gradient(to bottom, #FFAC47, #F56C06);
+	background-repeat: repeat-x;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.install-btn input:hover {
+	background-color: #fa7716;
+	background-image: linear-gradient(to bottom, #fb8731, #FFAC47);
+}
+
+#copyright {
+    color: #999999;
+    font-size: 11px;
+    margin: 0 auto;
+    padding: 10px 10px 0;
+    text-align: center;
+    width: 250px;
+}
+
+#copyright a {color:#999999;text-decoration:none;}
+#copyright a:hover {color:#FFF;text-decoration:none;border-bottom:1px dashed #fff;}

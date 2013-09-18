@@ -1,0 +1,82 @@
+#swfupload {font-size:12px;font-family:Verdana,Arial;}
+#swfupload table{font-size:12px;font-family:Verdana,Arial;}
+
+#swfupload .swfupload {
+	vertical-align: top;float:left;margin-left:6px;
+}
+
+#swfupload .status_ready {color:#17C135;}
+#swfupload .status_warning {color:#923110;}
+#swfupload .status_complete {color:#0A56C9;}
+#swfupload .num_selected {color:#FF3300;font-weight:bold;}
+#swfupload .warning {color:#FF3300;}
+#swfupload .filesStatus {padding:4px 0 0 12px;}
+
+#swfupload .fieldset {
+	border:  1px solid #d0deff;
+	margin: 10px 0;
+	padding: 0px 10px 10px 10px;
+	width: 560px;
+	margin: 10px 5px;
+
+	-moz-border-radius-topleft : 5px;
+	-webkit-border-top-left-radius : 5px;
+    -moz-border-radius-topright : 5px;
+    -webkit-border-top-right-radius : 5px;
+    -moz-border-radius-bottomleft : 5px;
+    -webkit-border-bottom-left-radius : 5px;
+    -moz-border-radius-bottomright : 5px;
+    -webkit-border-bottom-right-radius : 5px;
+}
+
+#swfupload .legend {
+	position: relative;
+	background-color: #FFF;
+	padding: 3px;
+	top: -10px;
+	font: 700 14px Arial, Helvetica, sans-serif;
+	color: #73b304;
+}
+
+#swfupload #file_table {color:#838383;border-collapse:collapse;width:560px;border:1px solid #B7BABC;}
+#swfupload #file_table tr {background-color:#FFFFFF;}
+#swfupload #file_table th, #file_table td {
+	border:1px solid #B7BABC;
+	text-align:center;
+	vertical-align:middle;
+	padding:4px 2px;
+}
+
+#swfupload #file_table th {color:#292929;background:#F9F9F9 url(../images/swfupload_table_header.gif) repeat-x top left;font-weight:normal;}
+#swfupload #file_table td {border-top:0;height:20px;}
+#swfupload #file_table td.swf_align_left {text-align:left;}
+#swfupload #file_table div.filename {width:180px;overflow:hidden;}
+#swfupload .progressBarInProgress {font-size: 0;width: 0%;	height: 8px;background-color: blue;float:left;}
+
+#swfupload #file_table .row_cancel {background-color: #FFEBEB;}
+
+#swfupload a.progressCancel {
+	font-size: 0;
+	display: block;
+	height: 18px;
+	width: 18px;
+	background:url(../images/swfupload_btn_cancel.gif) no-repeat;
+	background-position: -18px 0px;
+	margin:0 auto;
+}
+
+#swfupload a.progressCancel:hover {	background-position: 0px 0px;}
+
+#swfupload .buttons {width:586px;}
+
+#swfupload .btnUpload,
+#swfupload .btnUpload_disabled,
+#swfupload .btnCancel,
+#swfupload .btnCancel_disabled
+{background:url(../images/swfupload_buttons.gif) no-repeat;border:0;width:78px;height:28px;}
+
+#swfupload .btnUpload {background-position: 0px 0px;cursor:pointer;float:left;margin-left:12px;}
+#swfupload .btnUpload_disabled {background-position: 0px -28px;float:left;margin-left:12px;}
+
+#swfupload .btnCancel {background-position: 0px -56px;cursor:pointer;float:right;}
+#swfupload .btnCancel_disabled {background-position: 0px -84px;float:right;}

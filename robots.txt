@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /cache/
+Disallow: /config/
+Disallow: /controllers/
+Disallow: /images/
+Disallow: /includes/
+Disallow: /install/
+Disallow: /models/
+Disallow: /public/
+Disallow: /system/
+Disallow: /upgrade/
+Disallow: /uploads/
